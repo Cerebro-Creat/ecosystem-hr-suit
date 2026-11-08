@@ -1,0 +1,18 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: DENY
+  Cross-Origin-Opener-Policy: same-origin
+  Permissions-Policy: camera=(self), geolocation=(), microphone=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob:; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'
+/*.html
+  Cache-Control: no-cache
+/*/
+  Cache-Control: no-cache
+/*/sw.js
+  Cache-Control: no-cache
+  Service-Worker-Allowed: /
+/*/manifest.webmanifest
+  Cache-Control: no-cache
+/lib/*
+  Cache-Control: public, max-age=86400

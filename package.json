@@ -1,0 +1,9 @@
+{
+  "name": "ecosystem-hr-suit",
+  "version": "2.2.0",
+  "private": true,
+  "description": "Ecosystem HR Suite · servidor de conexión. © 2026 THE CEREBRO CREATIVE. Todos los derechos reservados.",
+  "license": "UNLICENSED",
+  "scripts": { "deploy": "wrangler deploy", "dev": "wrangler dev" },
+  "devDependencies": { "wrangler": "^4.40.0" }
+}

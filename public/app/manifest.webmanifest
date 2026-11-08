@@ -1,0 +1,30 @@
+{
+ "name": "Ecosystem HR Suite",
+ "short_name": "EHR Suite",
+ "description": "Programa de la empresa: registro de jornada, turnos, nóminas, documentos e Inspección de Trabajo.",
+ "start_url": "/app/",
+ "scope": "/app/",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#ffffff",
+ "theme_color": "#0F5C4C",
+ "lang": "es",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
